@@ -6,7 +6,7 @@ export default function manifest() {
     start_url: "/",
     display: "standalone",
     background_color: "#0063ff",
-    theme_color: "#FFFF00",
+    theme_color: "#0063ff",
     icons: [
       {
         src: "/favicon/android-icon-36x36.png",
