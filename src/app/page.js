@@ -1,14 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Home() {
   const [cont, setCont] = useState("");
 
+  useEffect(() => {
+    window.scrollTo(0, 1);
+  }, []);
+
   return (
-    <main className="pt-24 px-5">
-      <h1>V.3</h1>
+    <main className="pt-24 px-5 min-h-screen">
+      <h1>V.4</h1>
       <input
         //id="cameraFileInput"
         type="file"
