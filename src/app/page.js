@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <main className="pt-24 px-5">
-      <h1>V.1</h1>
+      <h1>V.2</h1>
       <input
         //id="cameraFileInput"
         type="file"
